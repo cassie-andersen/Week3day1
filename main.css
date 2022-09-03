@@ -11,8 +11,8 @@ body {
     height: 2000px;
 }
 .nav {
-    padding: 10px 0;
-    width: 1400px;
+    padding: 15px;
+    width: 1500px;
     height: 25px;
     background-color: #eaa500;
     color: white;
@@ -23,20 +23,36 @@ a:visited {
 }
 h1 {
     font-size: 20px;
-    padding: 0 500px 0 100px;
-    float: left;
-    position: relative;
+    position: fixed;
+    font-weight: normal;
 }
 a {
-    margin: 15px;
+    margin: 5px;
+}
+.home {
+    position: fixed;
+    left: 800px;
+}
+.product {
+    position: fixed;
+    left: 900px;
+}
+.pricing {
+    position: fixed;
+    left: 1000px;
+}
+.contact {
+    position: fixed;
+    left: 1100px;
 }
 .box {
-    padding: 30px 20px;
+    padding: 25px 20px;
     background-color: white;
     width: 200px;
     height: 350px;
-    margin: 90px 10px 0 10px;
+    margin: 70px 10px 0 10px;
     border: 2px solid #eaa500;
+    border-radius: 5px;
     float: left;
 }
 h2 {
@@ -44,9 +60,13 @@ h2 {
 }
 p {
     margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 17px;
 }
-.box a {
-    padding: 10px 40px;
+.info {
+    padding: 10px 55px;
     background-color: #eaa500;
+    border-radius: 5px;
+    width: 155px;
+    margin: 0 auto;
 }
